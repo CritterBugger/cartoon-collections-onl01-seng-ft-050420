@@ -10,7 +10,9 @@ def summon_captain_planet(planeteers)
   
 end
 
-def long_planeteer_calls()
+def long_planeteer_calls(planeteers)
+  
+  planeteers.each {|planeteer| return planeteer.}
   
 end
 
