@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteers)
   
-  planeteers.each {|planeteer| return planeteer.}
+  planeteers.each {|planeteer| return true if planeteer.size > 4}
   
 end
 
