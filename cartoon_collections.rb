@@ -12,8 +12,9 @@ end
 
 def long_planeteer_calls(planeteers)
   
-  planeteers.each {|planeteer| return true if planeteer.size > 4}
+  planeteers.each {|planeteer| return true if planeteer.length > 4}
   
+  return false
 end
 
 def find_the_cheese# code an argument here
