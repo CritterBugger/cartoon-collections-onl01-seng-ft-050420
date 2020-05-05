@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteers) 
   
-  return planeteers.map {|planeteer| "#{planeteer.capitalize()}!"
+  return planeteers.collect {|planeteer| "#{planeteer.capitalize()}!"
   
 end
 
