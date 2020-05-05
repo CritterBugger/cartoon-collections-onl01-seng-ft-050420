@@ -17,8 +17,11 @@ def long_planeteer_calls(planeteers)
   return false
 end
 
-def find_the_cheese
+def find_the_cheese(foods)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
+  foods.each {|food| return food if cheese_types.incude(food)}
+  
+  return nil
 end
